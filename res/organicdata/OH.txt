@@ -1,0 +1,12 @@
+{
+  "name": "羟基",
+  "formula": "OH",
+  "structure": "-OH",
+  "molarMass": 17.01,
+  "solubility": "可溶于水，有机溶剂",
+  "commonUses": "合成醇，酚，醚，醛，酮等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "不易燃",
+  "substituents": "任意烃基团",
+  "Reaction": "酸碱反应，亲核取代反应，消去反应，氧化反应"
+}

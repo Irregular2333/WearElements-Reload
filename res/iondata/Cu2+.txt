@@ -1,0 +1,1 @@
+{"ion":"Cu²⁺","InspectionMethod1":"向待检液中滴加K₂CrO₄溶液，若生成黄色沉淀，说明含Cu²⁺","InspectionMethodEquation1":"Cu²⁺ + CrO₄²⁻ = CuCrO₄↓","InspectionMethod2":"向待检液中滴加NaOH溶液，若生成蓝色沉淀，说明含Cu²⁺","InspectionMethodEquation2":"Cu²⁺ + 2OH⁻ = Cu(OH)₂↓","InspectionMethod3":"向待检液中滴加NH₃溶液，若生成深蓝色溶液，说明含Cu²⁺","InspectionMethodEquation3":"Cu²⁺ + 4NH₃ = [Cu(NH₃)₄]²⁺"}

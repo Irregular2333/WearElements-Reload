@@ -1,0 +1,6 @@
+{
+   "Equation": "Na₂CO₃ + BaCl₂ = BaCO₃ + 2NaCl",
+   "LonicEquation": "Na₂CO₃ + Ba²⁺ + 2Cl⁻ = BaCO₃ + 2Na⁺ + 2Cl⁻",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，会生成碳酸钡沉淀（BaCO₃）。"
+}

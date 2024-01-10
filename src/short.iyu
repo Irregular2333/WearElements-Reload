@@ -1,0 +1,710 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#000000</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=第一周期
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="9" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="7" did="9" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 1
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="10" did="8" type="TextView">
+<ppt>width=-1
+height=-1
+text=H
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 2
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=-1
+height=-1
+text=He
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="14" did="3" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginTop=9.45dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=第二周期
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 3
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="20" did="19" type="TextView">
+<ppt>width=-1
+height=-1
+text=Li
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="21" did="17" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 4
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="23" did="22" type="TextView">
+<ppt>width=-1
+height=-1
+text=Be
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="24" did="17" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 5
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-1
+height=-1
+text=B
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="27" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 6
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=-1
+height=-1
+text=C
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="31" did="27" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 7
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-1
+height=-1
+text=N
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="34" did="27" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 8
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="36" did="35" type="TextView">
+<ppt>width=-1
+height=-1
+text=O
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="37" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 9
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-1
+height=-1
+text=F
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="41" did="37" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 10
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="43" did="42" type="TextView">
+<ppt>width=-1
+height=-1
+text=Ne
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="44" did="3" type="CardView">
+<ppt>width=170.1dp
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginTop=9.45dp
+layout_marginBottom=9.45dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=第三周期
+textColor=#ffffff
+layout_gravity=left
+gravity=bottom
+layout_marginleft=7.5dp
+textSize=12sp
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="47" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="49" did="48" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 11
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="50" did="49" type="TextView">
+<ppt>width=-1
+height=-1
+text=Na
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="51" did="47" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="52" did="51" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 12
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="53" did="52" type="TextView">
+<ppt>width=-1
+height=-1
+text=Mg
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="54" did="47" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 13
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="56" did="55" type="TextView">
+<ppt>width=-1
+height=-1
+text=Al
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="57" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="58" did="57" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp
+app_CardBackgroundColor=#212121</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 14
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>width=-1
+height=-1
+text=Si
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="61" did="57" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#212121
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 15
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="63" did="62" type="TextView">
+<ppt>width=-1
+height=-1
+text=P
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="64" did="57" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#212121
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 16
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="66" did="65" type="TextView">
+<ppt>width=-1
+height=-1
+text=S
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="67" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginBottom=5dp
+</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginLeft=5dp
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#212121
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 17
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="70" did="69" type="TextView">
+<ppt>width=-1
+height=-1
+text=Cl
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<View id="71" did="67" type="CardView">
+<ppt>width=50.03333333333333dp
+height=50.03333333333333dp
+app_CardElevation=0dp
+layout_gravity=center_horizontal
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="72" did="71" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#212121
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">syso(233)
+sss element = 18
+uigo("data.iyu")</eventItme></event>
+</View>
+<View id="73" did="72" type="TextView">
+<ppt>width=-1
+height=-1
+text=Ar
+textColor=#FFFFFF
+gravity=center
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textSize=29sp
+singleLine=true
+ellipsize=middle</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

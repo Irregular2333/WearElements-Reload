@@ -1,0 +1,12 @@
+{
+  "name": "甲基",
+  "formula": "CH₃",
+  "structure": "-CH₃",
+  "molarMass": 15.03,
+  "solubility": "不溶于水，可溶于有机溶剂",
+  "commonUses": "合成甲烷，甲醇，甲酸，甲酯等有机化合物",
+  "healthHazards": "可引起眼刺激，呼吸道刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "无",
+  "Reaction": "卤仿反应，Mannich反应，甲基转移反应"
+}

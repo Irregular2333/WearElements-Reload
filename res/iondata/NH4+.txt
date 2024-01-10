@@ -1,0 +1,1 @@
+{"ion":"NH₄⁺","InspectionMethod1":"向待检液中滴加NaOH溶液，若有氨气释放，说明含NH₄⁺","InspectionMethodEquation1":"NH₄⁺ + OH⁻ = NH₃↑ + H₂O","InspectionMethod2":"向待检液中滴加Na₂CO₃溶液，若有氨气释放，说明含NH₄⁺","InspectionMethodEquation2":"NH₄⁺ + CO₃²⁻ = NH₃↑ + H₂O + CO₂↑","InspectionMethod3":"向待检液中滴加Nessler试剂，若生成棕色沉淀，说明含NH₄⁺","InspectionMethodEquation3":"NH₄⁺ + 2OH⁻ + 2[HgI₄]²⁻ = HgO·Hg(NH₂)I↓ + 7I⁻ + 3H₂O"}

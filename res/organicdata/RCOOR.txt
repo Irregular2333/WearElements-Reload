@@ -1,0 +1,12 @@
+{
+  "name": "酯基",
+  "formula": "RCOOR'",
+  "structure": "-C(=O)-O-R'",
+  "molarMass": "28.01+R+R'",
+  "solubility": "低分子量的酯可溶于水，高分子量的酯不溶于水，但可溶于有机溶剂",
+  "commonUses": "合成酯，香料，润滑剂，塑料等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "任意烃基团或芳香基团",
+  "Reaction": "水解反应，酯交换反应，还原反应，缩合反应"
+}

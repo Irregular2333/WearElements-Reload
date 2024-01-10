@@ -1,0 +1,1 @@
+{"ion":"Cl⁻","InspectionMethod1":"向待测液中加入稀硝酸酸化过（排除CO₃²⁻和SO₄²⁻）的硝酸银溶液，如果产生白色沉淀且白色沉淀不溶解，说明有Cl⁻存在","InspectionMethodEquation1":"Cl⁻+Ag⁺→AgCl↓","InspectionMethod2":"-","InspectionMethodEquation2":"-","InspectionMethod3":"-","InspectionMethodEquation3":"-"}

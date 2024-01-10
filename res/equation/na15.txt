@@ -1,0 +1,6 @@
+{
+   "Equation": "Na₂CO₃ + Ca(OH)₂ = CaCO₃ + 2NaOH",
+   "LonicEquation": "Na₂CO₃ + Ca²⁺ + 2OH⁻ = CaCO₃ + 2Na⁺ + 2OH⁻",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，会生成碳酸钙固体（CaCO₃）"
+}

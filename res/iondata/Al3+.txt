@@ -1,0 +1,1 @@
+{"ion":"Al³⁺","InspectionMethod1":"向待检液中滴加NaOH溶液，若生成白色沉淀，说明含Al³⁺","InspectionMethodEquation1":"Al³⁺ + 3OH⁻ = Al(OH)₃↓","InspectionMethod2":"向待检液中滴加过量的NaOH溶液，若先生成白色沉淀然后溶解，说明含Al³⁺","InspectionMethodEquation2":"Al³⁺ + 3OH⁻ = Al(OH)₃↓，Al(OH)₃ + OH⁻ = AlO₂⁻ + H₂O","InspectionMethod3":"向待检液中滴加NH₃溶液，若生成白色沉淀，说明含Al³⁺","InspectionMethodEquation3":"Al³⁺ + 3NH₃ + 3H₂O = Al(OH)₃↓ + 3NH₄⁺"}

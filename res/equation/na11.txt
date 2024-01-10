@@ -1,0 +1,6 @@
+{
+   "Equation": "2Na₂O₂ + 2SO₂ = 2Na₂SO₃ + O₂↑",
+   "LonicEquation": "2Na₂O₂ + 4SO₂ = 4Na⁺ + 4SO₃²⁻ + O₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，会产生并放出氧气（O₂）。"
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>腕上周期表</title>
+<icon>icon.png</icon>
+<packageName>com.irregular.wear.elements.re</packageName>
+<versionName>1.4</versionName>
+<versionint>8</versionint>
+<sdk>23</sdk>
+<yuv>3</yuv>
+
+<remark></remark>
+<Permissions>android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.VIBRATE
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE</Permissions>
+<createTime>2023-04-30 07:32:09</createTime>
+<upTime>2023-04-30 07:32:09</upTime><manifest></manifest><application></application>

@@ -1,0 +1,1 @@
+{"ion":"NO₃⁻","InspectionMethod1":"向待测液中加入少量浓硫酸和铜片，加热试管。如果有红棕色的气体（NO₂）放出，说明含有NO₃⁻","InspectionMethodEquation1":"Cu + 2NO₃⁻ + 2H₂SO₄ = CuSO₄ + 2NO₂↑ + 2H₂O + SO₄²⁻","InspectionMethod2":"-","InspectionMethodEquation2":"-","InspectionMethod3":"-","InspectionMethodEquation3":"-"}

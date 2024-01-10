@@ -1,0 +1,6 @@
+{
+   "Equation": "2Na₂O₂ + 2H₂O = 4NaOH + O₂↑",
+   "LonicEquation": "2Na₂O₂ + 4H₂O = 8Na⁺ + 4OH⁻ + O₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应过程中过氧化钠固体逐渐溶解，同时产生并放出氧气（O₂）。"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "硝基",
+  "formula": "NO₂",
+  "structure": "-NO₂",
+  "molarMass": 46.01,
+  "solubility": "不溶于水，可溶于有机溶剂",
+  "commonUses": "合成硝化物，炸药，染料等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "不易燃，但可增加其他物质的爆炸性",
+  "substituents": "任意烃基团",
+  "Reaction": "还原反应，亲电取代反应，重氮化反应，偶联反应"
+}

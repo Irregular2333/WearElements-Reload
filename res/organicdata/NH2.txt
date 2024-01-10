@@ -1,0 +1,12 @@
+{
+  "name": "氨基",
+  "formula": "NH₂",
+  "structure": "-NH₂",
+  "molarMass": 16.02,
+  "solubility": "可溶于水，醇，酮等极性溶剂",
+  "commonUses": "合成氨基酸，胺，尿素等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "不易燃",
+  "substituents": "任意烃基团",
+  "Reaction": "酰化反应，缩合反应，亲核取代反应，脱氨反应，颜色反应"
+}

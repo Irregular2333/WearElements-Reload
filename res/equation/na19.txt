@@ -1,0 +1,6 @@
+{
+   "Equation": "2NaHCO₃ + 6AlCl₃ = 2Al(OH)₃ + 6NaCl + 3CO₂↑",
+   "LonicEquation": "2NaHCO₃ + 6Al³⁺ + 6Cl⁻ = 2Al(OH)₃ + 6Na⁺ + 6Cl⁻ + 3CO₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，会生成氢氧化铝固体并且放出二氧化碳气体（CO₂）。"
+}

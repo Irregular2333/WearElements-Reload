@@ -1,0 +1,1 @@
+{"ion":"SO₄²⁻","InspectionMethod1":"向待检液中滴加BaCl₂溶液，若有白色沉淀生成，说明含SO₄²⁻","InspectionMethodEquation1":"SO₄²⁻ + Ba²⁺ = BaSO₄↓","InspectionMethod2":"向待检液中滴加CuSO₄溶液和稀硫酸，若有红棕色气体放出，说明含SO₄²⁻","InspectionMethodEquation2":"Cu + 2NO₃⁻ + 2H₂SO₄ = CuSO₄ + 2NO₂↑ + 2H₂O + SO₄²⁻","InspectionMethod3":"-","InspectionMethodEquation3":"-"}

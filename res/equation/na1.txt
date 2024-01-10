@@ -1,0 +1,1 @@
+{"Equation":"2Na+2H₂O=2NaOH+H₂↑","LonicEquation":"2Na+2H₂O=2Na⁺+2OH⁻+H₂↑","ReactionConditions":"-","ReactionPhenomenon":"钠漂浮在水的表面，生成了无色无味的气体（H₂），钠表面熔成小球状，并且钠在水表面来回游动，同时发出嘶嘶的声音"}

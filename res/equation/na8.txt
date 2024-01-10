@@ -1,0 +1,6 @@
+{
+   "Equation": "4Na₂O + O₂ = 4Na₂O₂",
+   "LonicEquation": "4Na₂O + O₂ = 8Na⁺ + O₂²⁻",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，生成淡黄色的过氧化钠固体。"
+}

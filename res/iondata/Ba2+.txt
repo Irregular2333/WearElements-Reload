@@ -1,0 +1,1 @@
+{"ion":"Ba²⁺","InspectionMethod1":"向待检液中滴加硫酸溶液，若生成白色沉淀，说明含Ba²⁺","InspectionMethodEquation1":"Ba²⁺ + SO₄²⁻ = BaSO₄↓","InspectionMethod2":"向待检液中滴加K₂CrO₄溶液，若生成黄色沉淀，说明含Ba²⁺","InspectionMethodEquation2":"Ba²⁺ + CrO₄²⁻ = BaCrO₄↓","InspectionMethod3":"向待检液中滴加Na₂CO₃溶液，若生成白色沉淀，说明含Ba²⁺","InspectionMethodEquation3":"Ba²⁺ + CO₃²⁻ = BaCO₃↓"}

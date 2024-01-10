@@ -1,0 +1,12 @@
+{
+  "name": "醛基",
+  "formula": "CHO",
+  "structure": "-CHO",
+  "molarMass": 29.02,
+  "solubility": "可溶于水，有机溶剂",
+  "commonUses": "合成醛，醛酸，醛酯等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "任意烃基团",
+  "Reaction": "氧化反应，还原反应，缩合反应，氨基反应，羟基反应"
+}

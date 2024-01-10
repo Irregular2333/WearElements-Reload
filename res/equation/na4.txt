@@ -1,0 +1,6 @@
+{
+   "Equation": "2Na + CuSO₄ + 2H₂O = Cu(OH)₂ + Na₂SO₄ + H₂↑",
+   "LonicEquation": "2Na + Cu²⁺ + 2SO₄²⁻ + 2H₂O = Cu(OH)₂ + 2Na⁺ + 2SO₄²⁻ + H₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应会产生氢氧化铜沉淀（Cu(OH)₂）并会且产生气泡[氢气（H₂）]。"
+}

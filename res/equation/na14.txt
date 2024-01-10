@@ -1,0 +1,6 @@
+{
+   "Equation": "Na₂CO₃ + H₂O + CO₂ = 2NaHCO₃",
+   "LonicEquation": "Na₂CO₃ + H₂O + CO₂ = 2Na⁺ + 2HCO₃⁻",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应过程中无明显现象。"
+}

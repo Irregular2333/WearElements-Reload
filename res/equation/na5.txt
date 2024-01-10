@@ -1,0 +1,6 @@
+{
+   "Equation": "2Na + 2C₂H₅OH = 2C₂H₅ONa + H₂↑",
+   "LonicEquation": "2Na + 2C₂H₅OH = 2C₂H₅O⁻Na⁺ + H₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应过程中固体钠溶解，生成乙醇钠在溶液中溶解，并且生成气泡[氢气（H₂）]。"
+}

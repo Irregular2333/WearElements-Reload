@@ -1,0 +1,6 @@
+{
+   "Equation": "Na₂O + 2HCl = 2NaCl + H₂O",
+   "LonicEquation": "Na₂O + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + H₂O",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应过程中无明显现象。"
+}

@@ -1,0 +1,1 @@
+{"name": "碳碳三键","formula": "C₂H₂","structure": "HC≡CH","molarMass": 26.04,"solubility": "不溶于水，可溶于有机溶剂","commonUses": "合成乙炔，乙炔焊，合成其他有机化合物","healthHazards": "可引起眼刺激，呼吸道刺激，中毒","flammability": "极易燃","substituents": "氢原子，卤代基团","Reaction": "加成反应，取代反应，氧化反应，加聚反应"}

@@ -1,0 +1,12 @@
+{
+  "name": "碳碳双键",
+  "formula": "C₂H₄",
+  "structure": "H₂C=CH₂",
+  "molarMass": 28.05,
+  "solubility": "不溶于水，可溶于有机溶剂",
+  "commonUses": "合成乙烯，乙烯聚合，合成其他有机化合物",
+  "healthHazards": "可引起眼刺激，呼吸道刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "氢原子，卤代基团",
+  "Reaction": "氧化反应，聚合反应，加成反应"
+}

@@ -1,0 +1,6 @@
+{
+   "Equation": "2Na₂O₂ + 2CO₂ = 2Na₂CO₃ + O₂↑",
+   "LonicEquation": "2Na₂O₂ + 2CO₂ = 4Na⁺ + 2CO₃²⁻ + O₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "反应过程中过氧化钠固体逐渐消失，同时产生并放出氧气（O₂）。"
+}

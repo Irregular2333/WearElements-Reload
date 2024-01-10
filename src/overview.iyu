@@ -1,0 +1,1447 @@
+<View id="2" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundColor=#000000</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="1" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#000000</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=horizontal
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="6" did="7" type="CardView">
+<ppt>width=122.85dp
+height=37.8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="EditText">
+<ppt>width=112.85dp
+height=-1
+text=
+hint=查询元素
+textSize=14sp
+textColorHighlight=#ffffff
+cursorVisible=true
+gravity=center
+textCursorDrawable=#ffffff
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_gravity=center_horizontal
+textColorHint=#ffd5d2d2
+maxLines=1
+textColorLink=#ffffff
+focusable=true
+</ppt>
+<event><eventItme type="editormonitor">// 获取编辑框的文本
+ug(overview.11, "text", elementText)
+
+// 判断元素符号是什么，并赋值对应的元素序数给全局变量 element
+f(elementText == "H" || elementText == "h" || elementText == "1" || elementText == "氢") {
+    sss element = 1
+    uigo("data.iyu")
+}
+else f(elementText == "He" || elementText == "he" || elementText == "2" || elementText == "氦") {
+    sss element = 2
+    uigo("data.iyu")
+}
+else f(elementText == "Li"|| elementText == "li" || elementText == "3" || elementText == "锂") {
+    sss element = 3
+    uigo("data.iyu")
+}
+else f(elementText == "Be"|| elementText == "be" || elementText == "4" || elementText == "铍") {
+    sss element = 4
+    uigo("data.iyu")
+}
+else f(elementText == "B"|| elementText == "b" || elementText == "5" || elementText == "硼") {
+    sss element = 5
+    uigo("data.iyu")
+}
+else f(elementText == "C"|| elementText == "c" || elementText == "6" || elementText == "碳") {
+    sss element = 6
+    uigo("data.iyu")
+}
+else f(elementText == "N"|| elementText == "n" || elementText == "7")|| elementText == "氮") {
+    sss element = 7
+    uigo("data.iyu")
+}
+else f(elementText == "O"|| elementText == "o" || elementText == "8" || elementText == "氧") {
+    sss element = 8
+    uigo("data.iyu")
+}
+else f(elementText == "F"|| elementText == "f" || elementText == "9" || elementText == "氟") {
+    sss element = 9
+    uigo("data.iyu")
+}
+else f(elementText == "Ne"|| elementText == "ne" || elementText == "10" || elementText == "氖") {
+    sss element = 10
+    uigo("data.iyu")
+}
+else f(elementText == "Na"|| elementText == "na" || elementText == "11" || elementText == "钠") {
+    sss element = 11
+    uigo("data.iyu")
+}
+else f(elementText == "Mg"|| elementText == "mg" || elementText == "12" || elementText == "镁") {
+    sss element = 12
+    uigo("data.iyu")
+}
+else f(elementText == "Al"|| elementText == "al" || elementText == "13" || elementText == "铝") {
+    sss element = 13
+    uigo("data.iyu")
+}
+else f(elementText == "Si"|| elementText == "si" || elementText == "14" || elementText == "硅") {
+    sss element = 14
+    uigo("data.iyu")
+}
+else f(elementText == "P"|| elementText == "p" || elementText == "15" || elementText == "磷") {
+    sss element = 15
+    uigo("data.iyu")
+}
+else f(elementText == "S"|| elementText == "s" || elementText == "16" || elementText == "硫") {
+    sss element = 16
+    uigo("data.iyu")
+}
+else f(elementText == "Cl")|| elementText == "cl" || elementText == "17" || elementText == "氯" {
+    sss element = 17
+    uigo("data.iyu")
+}
+else f(elementText == "Ar"|| elementText == "ar" || elementText == "18" || elementText == "氩") {
+    sss element = 18
+    uigo("data.iyu")
+}
+else f(elementText == "K"|| elementText == "k" || elementText == "19" || elementText == "钾") {
+    sss element = 19
+    uigo("data.iyu")
+}
+else f(elementText == "Ca"|| elementText == "ca" || elementText == "20" || elementText == "钙") {
+    sss element = 20
+    uigo("data.iyu")
+}
+else f(elementText == "Sc"|| elementText == "sc" || elementText == "21" || elementText == "钪") {
+    sss element = 21
+    uigo("data.iyu")
+}
+else f(elementText == "Ti"|| elementText == "ti" || elementText == "22" || elementText == "钛") {
+    sss element = 22
+    uigo("data.iyu")
+}
+else f(elementText == "V"|| elementText == "v" || elementText == "23" || elementText == "钒") {
+    sss element = 23
+    uigo("data.iyu")
+}
+else f(elementText == "Cr"|| elementText == "cr" || elementText == "24" || elementText == "铬") {
+    sss element = 24
+    uigo("data.iyu")
+}
+else f(elementText == "Mn"|| elementText == "mn" || elementText == "25" || elementText == "锰") {
+    sss element = 25
+    uigo("data.iyu")
+}
+else f(elementText == "Fe"|| elementText == "fe" || elementText == "26" || elementText == "铁") {
+    sss element = 26
+    uigo("data.iyu")
+}
+else f(elementText == "Co"|| elementText == "co" || elementText == "27" || elementText == "钴") {
+    sss element = 27
+    uigo("data.iyu")
+}
+else f(elementText == "Ni"|| elementText == "ni" || elementText == "28" || elementText == "镍") {
+    sss element = 28
+    uigo("data.iyu")
+}
+else f(elementText == "Cu"|| elementText == "cu" || elementText == "29" || elementText == "铜") {
+    sss element = 29
+    uigo("data.iyu")
+}
+else f(elementText == "Zn"|| elementText == "zn" || elementText == "30" || elementText == "锌") {
+    sss element = 30
+    uigo("data.iyu")
+}
+else f(elementText == "Ga"|| elementText == "ga" || elementText == "31" || elementText == "镓") {
+    sss element = 31
+    uigo("data.iyu")
+}
+else f(elementText == "Ge"|| elementText == "ge" || elementText == "32" || elementText == "锗") {
+    sss element = 32
+    uigo("data.iyu")
+}
+else f(elementText == "As"|| elementText == "as" || elementText == "33" || elementText == "砷") {
+    sss element = 33
+    uigo("data.iyu")
+}
+else f(elementText == "Se"|| elementText == "se" || elementText == "34" || elementText == "硒") {
+    sss element = 34
+    uigo("data.iyu")
+}
+else f(elementText == "Br"|| elementText == "br" || elementText == "35" || elementText == "溴") {
+    sss element = 35
+    uigo("data.iyu")
+}
+else f(elementText == "Kr"|| elementText == "kr" || elementText == 36" || elementText == "氪") {
+    sss element = 36
+    uigo("data.iyu")
+}
+else f(elementText == "Rb"|| elementText == "rb" || elementText == "37" || elementText == "铷") {
+    sss element = 37
+    uigo("data.iyu")
+}
+else f(elementText == "Sr"|| elementText == "sr" || elementText == "38" || elementText == "锶") {
+    sss element = 38
+    uigo("data.iyu")
+}
+else f(elementText == "Y"|| elementText == "y" || elementText == "39" || elementText == "钇") {
+    sss element = 39
+    uigo("data.iyu")
+}
+else f(elementText == "Zr"|| elementText == "zr" || elementText == "40" || elementText == "锆") {
+    sss element = 40
+    uigo("data.iyu")
+}
+else f(elementText == "Nb" || elementText == "nb" || elementText == "41" || elementText == "铌") {
+    sss element = 41
+    uigo("data.iyu")
+}
+else f(elementText == "Mo" || elementText == "mo" || elementText == "42" || elementText == "钼") {
+    sss element = 42
+    uigo("data.iyu")
+}
+else f(elementText == "Tc" || elementText == "tc" || elementText == "43" || elementText == "锝") {
+    sss element = 43
+    uigo("data.iyu")
+}
+else f(elementText == "Ru" || elementText == "ru" || elementText == "44" || elementText == "钌") {
+    sss element = 44
+    uigo("data.iyu")
+}
+else f(elementText == "Rh" || elementText == "rh" || elementText == "45" || elementText == "铑") {
+    sss element = 45
+    uigo("data.iyu")
+}
+else f(elementText == "Pd" || elementText == "pd" || elementText == "46" || elementText == "钯") {
+    sss element = 46
+    uigo("data.iyu")
+}
+else f(elementText == "Ag" || elementText == "ag" || elementText == "47" || elementText == "银") {
+    sss element = 47
+    uigo("data.iyu")
+}
+else f(elementText == "Cd" || elementText == "cd" || elementText == "48" || elementText == "镉") {
+    sss element = 48
+    uigo("data.iyu")
+}
+else f(elementText == "In" || elementText == "in" || elementText == "49" || elementText == "铟") {
+    sss element = 49
+    uigo("data.iyu")
+}
+else f(elementText == "Sn" || elementText == "sn" || elementText == "50" || elementText == "锡") {
+    sss element = 50
+    uigo("data.iyu")
+}
+else f(elementText == "Sb" || elementText == "sb" || elementText == "51" || elementText == "锑") {
+    sss element = 51
+    uigo("data.iyu")
+}
+else f(elementText == "Te" || elementText == "te" || elementText == "52" || elementText == "碲") {
+    sss element = 52
+    uigo("data.iyu")
+}
+else f(elementText == "I" || elementText == "i" || elementText == "53" || elementText == "碘") {
+    sss element = 53
+    uigo("data.iyu")
+}
+else f(elementText == "Xe" || elementText == "xe" || elementText == "54" || elementText == "氙") {
+    sss element = 54
+    uigo("data.iyu")
+}
+else f(elementText == "Cs" || elementText == "cs" || elementText == "55" || elementText == "铯") {
+    sss element = 55
+    uigo("data.iyu")
+}
+else f(elementText == "Ba" || elementText == "ba" || elementText == "56" || elementText == "钡") {
+    sss element = 56
+    uigo("data.iyu")
+}
+else f(elementText == "La" || elementText == "la" || elementText == "57" || elementText == "镧") {
+    sss element = 57
+    uigo("data.iyu")
+}
+else f(elementText == "Ce" || elementText == "ce" || elementText == "58" || elementText == "铈") {
+    sss element = 58
+    uigo("data.iyu")
+}
+else f(elementText == "Pr" || elementText == "pr" || elementText == "59" || elementText == "镨") {
+    sss element = 59
+    uigo("data.iyu")
+}
+else f(elementText == "Nd" || elementText == "nd" || elementText == "60" || elementText == "钕") {
+    sss element = 60
+    uigo("data.iyu")
+}
+else f(elementText == "Pm" || elementText == "pm" || elementText == "61" || elementText == "钷") {
+    sss element = 61
+    uigo("data.iyu")
+}
+else f(elementText == "Sm" || elementText == "sm" || elementText == "62" || elementText == "钐") {
+    sss element = 62
+    uigo("data.iyu")
+}
+else f(elementText == "Eu" || elementText == "eu" || elementText == "63" || elementText == "铕") {
+    sss element = 63
+    uigo("data.iyu")
+}
+else f(elementText == "Gd" || elementText == "gd" || elementText == "64" || elementText == "钆") {
+    sss element = 64
+    uigo("data.iyu")
+}
+else f(elementText == "Tb" || elementText == "tb" || elementText == "65" || elementText == "铽") {
+    sss element = 65
+    uigo("data.iyu")
+}
+else f(elementText == "Dy" || elementText == "dy" || elementText == "66" || elementText == "镝") {
+    sss element = 66
+    uigo("data.iyu")
+}
+else f(elementText == "Ho" || elementText == "ho" || elementText == "67" || elementText == "钬") {
+    sss element = 67
+    uigo("data.iyu")
+}
+else f(elementText == "Er" || elementText == "er" || elementText == "68" || elementText == "铒") {
+    sss element = 68
+    uigo("data.iyu")
+}
+else f(elementText == "Tm" || elementText == "tm" || elementText == "69" || elementText == "铥") {
+    sss element = 69
+    uigo("data.iyu")
+}
+else f(elementText == "Yb" || elementText == "yb" || elementText == "70" || elementText == "镱") {
+    sss element = 70
+    uigo("data.iyu")
+}
+else f(elementText == "Lu" || elementText == "lu" || elementText == "71" || elementText == "镥") {
+    sss element = 71
+    uigo("data.iyu")
+}
+else f(elementText == "Hf" || elementText == "hf" || elementText == "72" || elementText == "铪") {
+    sss element = 72
+    uigo("data.iyu")
+}
+else f(elementText == "Ta" || elementText == "ta" || elementText == "73" || elementText == "钽") {
+    sss element = 73
+    uigo("data.iyu")
+}
+else f(elementText == "W" || elementText == "w" || elementText == "74" || elementText == "钨") {
+    sss element = 74
+    uigo("data.iyu")
+}
+else f(elementText == "Re" || elementText == "re" || elementText == "75" || elementText == "铼") {
+    sss element = 75
+    uigo("data.iyu")
+}
+else f(elementText == "Os" || elementText == "os" || elementText == "76" || elementText == "锇") {
+    sss element = 76
+    uigo("data.iyu")
+}
+else f(elementText == "Ir" || elementText == "ir" || elementText == "77" || elementText == "铱") {
+    sss element = 77
+    uigo("data.iyu")
+}
+else f(elementText == "Pt" || elementText == "pt" || elementText == "78" || elementText == "铂") {
+    sss element = 78
+    uigo("data.iyu")
+}
+else f(elementText == "Au" || elementText == "au" || elementText == "79" || elementText == "金") {
+    sss element = 79
+    uigo("data.iyu")
+}
+else f(elementText == "Hg" || elementText == "hg" || elementText == "80" || elementText == "汞") {
+    sss element = 80
+    uigo("data.iyu")
+}
+else f(elementText == "Tl" || elementText == "tl" || elementText == "81" || elementText == "铊") {
+    sss element = 81
+    uigo("data.iyu")
+}
+else f(elementText == "Pb" || elementText == "pb" || elementText == "82" || elementText == "铅") {
+    sss element = 82
+    uigo("data.iyu")
+}
+else f(elementText == "Bi" || elementText == "bi" || elementText == "83" || elementText == "铋") {
+    sss element = 83
+    uigo("data.iyu")
+}
+else f(elementText == "Po" || elementText == "po" || elementText == "84" || elementText == "钋") {
+    sss element = 84
+    uigo("data.iyu")
+}
+else f(elementText == "At" || elementText == "at" || elementText == "85" || elementText == "砹") {
+    sss element = 85
+    uigo("data.iyu")
+}
+else f(elementText == "Rn" || elementText == "rn" || elementText == "86" || elementText == "氡") {
+    sss element = 86
+    uigo("data.iyu")
+}
+else f(elementText == "Fr" || elementText == "fr" || elementText == "87" || elementText == "钫") {
+    sss element = 87
+    uigo("data.iyu")
+}
+else f(elementText == "Ra" || elementText == "ra" || elementText == "88" || elementText == "镭") {
+    sss element = 88
+    uigo("data.iyu")
+}
+else f(elementText == "Ac" || elementText == "ac" || elementText == "89" || elementText == "锕") {
+    sss element = 89
+    uigo("data.iyu")
+}
+else f(elementText == "Th" || elementText == "th" || elementText == "90" || elementText == "钍") {
+    sss element = 90
+    uigo("data.iyu")
+}
+else f(elementText == "Pa" || elementText == "pa" || elementText == "91" || elementText == "镤") {
+    sss element = 91
+    uigo("data.iyu")
+}
+else f(elementText == "U" || elementText == "u" || elementText == "92" || elementText == "铀") {
+    sss element = 92
+    uigo("data.iyu")
+}
+else f(elementText == "Np" || elementText == "np" || elementText == "93" || elementText == "镎") {
+    sss element = 93
+    uigo("data.iyu")
+}
+else f(elementText == "Pu" || elementText == "pu" || elementText == "94" || elementText == "钚") {
+    sss element = 94
+    uigo("data.iyu")
+}
+else f(elementText == "Am" || elementText == "am" || elementText == "95" || elementText == "镅") {
+    sss element = 95
+    uigo("data.iyu")
+}
+else f(elementText == "Cm" || elementText == "cm" || elementText == "96" || elementText == "锔") {
+    sss element = 96
+    uigo("data.iyu")
+}
+else f(elementText == "Bk" || elementText == "bk" || elementText == "97" || elementText == "锫") {
+    sss element = 97
+    uigo("data.iyu")
+}
+else f(elementText == "Cf" || elementText == "cf" || elementText == "98" || elementText == "锎") {
+    sss element = 98
+    uigo("data.iyu")
+}
+else f(elementText == "Es" || elementText == "es" || elementText == "99" || elementText == "锿") {
+    sss element = 99
+    uigo("data.iyu")
+}
+else f(elementText == "Fm" || elementText == "fm" || elementText == "100" || elementText == "镄") {
+    sss element = 100
+    uigo("data.iyu")
+}
+else f(elementText == "Md" || elementText == "md" || elementText == "101" || elementText == "钔") {
+    sss element = 101
+    uigo("data.iyu")
+}
+else f(elementText == "No" || elementText == "no" || elementText == "102" || elementText == "锘") {
+    sss element = 102
+    uigo("data.iyu")
+}
+else f(elementText == "Lr" || elementText == "lr" || elementText == "103" || elementText == "铹") {
+    sss element = 103
+    uigo("data.iyu")
+}
+else f(elementText == "Rf" || elementText == "rf" || elementText == "104" || elementText == "𬬻") {
+    sss element = 104
+    uigo("data.iyu")
+}
+else f(elementText == "Db" || elementText == "db" || elementText == "105" || elementText == "𬭊") {
+    sss element = 105
+    uigo("data.iyu")
+}
+else f(elementText == "Sg" || elementText == "sg" || elementText == "106" || elementText == "𬭳") {
+    sss element = 106
+    uigo("data.iyu")
+}
+else f(elementText == "Bh" || elementText == "bh" || elementText == "107" || elementText == "𬭛") {
+    sss element = 107
+    uigo("data.iyu")
+}
+else f(elementText == "Hs" || elementText == "hs" || elementText == "108" || elementText == "𬭶") {
+    sss element = 108
+    uigo("data.iyu")
+}
+else f(elementText == "Mt" || elementText == "mt" || elementText == "109" || elementText == "鿏") {
+    sss element = 109
+    uigo("data.iyu")
+}
+else f(elementText == "Ds" || elementText == "ds" || elementText == "110" || elementText == "𫟼") {
+    sss element = 110
+    uigo("data.iyu")
+}
+else f(elementText == "Rg" || elementText == "rg" || elementText == "111" || elementText == "𬬭") {
+    sss element = 111
+    uigo("data.iyu")
+}
+else f(elementText == "Cn" || elementText == "cn" || elementText == "112" || elementText == "𬭶") {
+    sss element = 112
+    uigo("data.iyu")
+}
+else f(elementText == "Nh" || elementText == "nh" || elementText == "113" || elementText == "鿔") {
+    sss element = 113
+    uigo("data.iyu")
+}
+else f(elementText == "Fl" || elementText == "fl" || elementText == "114" || elementText == "鿧") {
+    sss element = 114
+    uigo("data.iyu")
+}
+else f(elementText == "Mc" || elementText == "mc" || elementText == "115" || elementText == "鿨") {
+    sss element = 115
+    uigo("data.iyu")
+}
+else f(elementText == "Lv" || elementText == "lv" || elementText == "116" || elementText == "鿩") {
+    sss element = 116
+    uigo("data.iyu")
+}
+else f(elementText == "Ts" || elementText == "ts" || elementText == "117" || elementText == "鿪") {
+    sss element = 117
+    uigo("data.iyu")
+}
+else f(elementText == "Og" || elementText == "og" || elementText == "118" || elementText == "鿫") {
+    sss element = 118
+    uigo("data.iyu")
+}
+else f(elementText == "") {
+    fn MDtw.toast("请输入元素符号或者元素序数",2)
+}
+else f(elementText == "零度音乐"){
+    uapp("ml.sky233.zero.music",c)
+}
+else {
+    fn MDtw.toast("请输入正确的元素符号！元素序数请长按查询",2)
+}
+
+</eventItme></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=37.8dp
+height=37.8dp
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=9.45dp
+BackgroundRipple=#000000
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">// 获取编辑框的文本
+ug(overview.11, "text", elementText)
+
+// 判断元素符号是什么，并赋值对应的元素序数给全局变量 element
+f(elementText == "H" || elementText == "h" || elementText == "1" || elementText == "氢") {
+    sss element = 1
+    uigo("data.iyu")
+}
+else f(elementText == "He" || elementText == "he" || elementText == "2" || elementText == "氦") {
+    sss element = 2
+    uigo("data.iyu")
+}
+else f(elementText == "Li"|| elementText == "li" || elementText == "3" || elementText == "锂") {
+    sss element = 3
+    uigo("data.iyu")
+}
+else f(elementText == "Be"|| elementText == "be" || elementText == "4" || elementText == "铍") {
+    sss element = 4
+    uigo("data.iyu")
+}
+else f(elementText == "B"|| elementText == "b" || elementText == "5" || elementText == "硼") {
+    sss element = 5
+    uigo("data.iyu")
+}
+else f(elementText == "C"|| elementText == "c" || elementText == "6" || elementText == "碳") {
+    sss element = 6
+    uigo("data.iyu")
+}
+else f(elementText == "N"|| elementText == "n" || elementText == "7"|| elementText == "氮") {
+    sss element = 7
+    uigo("data.iyu")
+}
+else f(elementText == "O"|| elementText == "o" || elementText == "8" || elementText == "氧") {
+    sss element = 8
+    uigo("data.iyu")
+}
+else f(elementText == "F"|| elementText == "f" || elementText == "9" || elementText == "氟") {
+    sss element = 9
+    uigo("data.iyu")
+}
+else f(elementText == "Ne"|| elementText == "ne" || elementText == "10" || elementText == "氖") {
+    sss element = 10
+    uigo("data.iyu")
+}
+else f(elementText == "Na"|| elementText == "na" || elementText == "11" || elementText == "钠") {
+    sss element = 11
+    uigo("data.iyu")
+}
+else f(elementText == "Mg"|| elementText == "mg" || elementText == "12" || elementText == "镁") {
+    sss element = 12
+    uigo("data.iyu")
+}
+else f(elementText == "Al"|| elementText == "al" || elementText == "13" || elementText == "铝") {
+    sss element = 13
+    uigo("data.iyu")
+}
+else f(elementText == "Si"|| elementText == "si" || elementText == "14" || elementText == "硅") {
+    sss element = 14
+    uigo("data.iyu")
+}
+else f(elementText == "P"|| elementText == "p" || elementText == "15" || elementText == "磷") {
+    sss element = 15
+    uigo("data.iyu")
+}
+else f(elementText == "S"|| elementText == "s" || elementText == "16" || elementText == "硫") {
+    sss element = 16
+    uigo("data.iyu")
+}
+else f(elementText == "Cl"|| elementText == "cl" || elementText == "17" || elementText == "氯") {
+    sss element = 17
+    uigo("data.iyu")
+}
+else f(elementText == "Ar"|| elementText == "ar" || elementText == "18" || elementText == "氩") {
+    sss element = 18
+    uigo("data.iyu")
+}
+else f(elementText == "K"|| elementText == "k" || elementText == "19" || elementText == "钾") {
+    sss element = 19
+    uigo("data.iyu")
+}
+else f(elementText == "Ca"|| elementText == "ca" || elementText == "20" || elementText == "钙") {
+    sss element = 20
+    uigo("data.iyu")
+}
+else f(elementText == "Sc"|| elementText == "sc" || elementText == "21" || elementText == "钪") {
+    sss element = 21
+    uigo("data.iyu")
+}
+else f(elementText == "Ti"|| elementText == "ti" || elementText == "22" || elementText == "钛") {
+    sss element = 22
+    uigo("data.iyu")
+}
+else f(elementText == "V"|| elementText == "v" || elementText == "23" || elementText == "钒") {
+    sss element = 23
+    uigo("data.iyu")
+}
+else f(elementText == "Cr"|| elementText == "cr" || elementText == "24" || elementText == "铬") {
+    sss element = 24
+    uigo("data.iyu")
+}
+else f(elementText == "Mn"|| elementText == "mn" || elementText == "25" || elementText == "锰") {
+    sss element = 25
+    uigo("data.iyu")
+}
+else f(elementText == "Fe"|| elementText == "fe" || elementText == "26" || elementText == "铁") {
+    sss element = 26
+    uigo("data.iyu")
+}
+else f(elementText == "Co"|| elementText == "co" || elementText == "27" || elementText == "钴") {
+    sss element = 27
+    uigo("data.iyu")
+}
+else f(elementText == "Ni"|| elementText == "ni" || elementText == "28" || elementText == "镍") {
+    sss element = 28
+    uigo("data.iyu")
+}
+else f(elementText == "Cu"|| elementText == "cu" || elementText == "29" || elementText == "铜") {
+    sss element = 29
+    uigo("data.iyu")
+}
+else f(elementText == "Zn"|| elementText == "zn" || elementText == "30" || elementText == "锌") {
+    sss element = 30
+    uigo("data.iyu")
+}
+else f(elementText == "Ga"|| elementText == "ga" || elementText == "31" || elementText == "镓") {
+    sss element = 31
+    uigo("data.iyu")
+}
+else f(elementText == "Ge"|| elementText == "ge" || elementText == "32" || elementText == "锗") {
+    sss element = 32
+    uigo("data.iyu")
+}
+else f(elementText == "As"|| elementText == "as" || elementText == "33" || elementText == "砷") {
+    sss element = 33
+    uigo("data.iyu")
+}
+else f(elementText == "Se"|| elementText == "se" || elementText == "34" || elementText == "硒") {
+    sss element = 34
+    uigo("data.iyu")
+}
+else f(elementText == "Br"|| elementText == "br" || elementText == "35" || elementText == "溴") {
+    sss element = 35
+    uigo("data.iyu")
+}
+else f(elementText == "Kr"|| elementText == "kr" || elementText == "36" || elementText == "氪") {
+    sss element = 36
+    uigo("data.iyu")
+}
+else f(elementText == "Rb"|| elementText == "rb" || elementText == "37" || elementText == "铷") {
+    sss element = 37
+    uigo("data.iyu")
+}
+else f(elementText == "Sr"|| elementText == "sr" || elementText == "38" || elementText == "锶") {
+    sss element = 38
+    uigo("data.iyu")
+}
+else f(elementText == "Y"|| elementText == "y" || elementText == "39" || elementText == "钇") {
+    sss element = 39
+    uigo("data.iyu")
+}
+else f(elementText == "Zr"|| elementText == "zr" || elementText == "40" || elementText == "锆") {
+    sss element = 40
+    uigo("data.iyu")
+}
+else f(elementText == "Nb" || elementText == "nb" || elementText == "41" || elementText == "铌") {
+    sss element = 41
+    uigo("data.iyu")
+}
+else f(elementText == "Mo" || elementText == "mo" || elementText == "42" || elementText == "钼") {
+    sss element = 42
+    uigo("data.iyu")
+}
+else f(elementText == "Tc" || elementText == "tc" || elementText == "43" || elementText == "锝") {
+    sss element = 43
+    uigo("data.iyu")
+}
+else f(elementText == "Ru" || elementText == "ru" || elementText == "44" || elementText == "钌") {
+    sss element = 44
+    uigo("data.iyu")
+}
+else f(elementText == "Rh" || elementText == "rh" || elementText == "45" || elementText == "铑") {
+    sss element = 45
+    uigo("data.iyu")
+}
+else f(elementText == "Pd" || elementText == "pd" || elementText == "46" || elementText == "钯") {
+    sss element = 46
+    uigo("data.iyu")
+}
+else f(elementText == "Ag" || elementText == "ag" || elementText == "47" || elementText == "银") {
+    sss element = 47
+    uigo("data.iyu")
+}
+else f(elementText == "Cd" || elementText == "cd" || elementText == "48" || elementText == "镉") {
+    sss element = 48
+    uigo("data.iyu")
+}
+else f(elementText == "In" || elementText == "in" || elementText == "49" || elementText == "铟") {
+    sss element = 49
+    uigo("data.iyu")
+}
+else f(elementText == "Sn" || elementText == "sn" || elementText == "50" || elementText == "锡") {
+    sss element = 50
+    uigo("data.iyu")
+}
+else f(elementText == "Sb" || elementText == "sb" || elementText == "51" || elementText == "锑") {
+    sss element = 51
+    uigo("data.iyu")
+}
+else f(elementText == "Te" || elementText == "te" || elementText == "52" || elementText == "碲") {
+    sss element = 52
+    uigo("data.iyu")
+}
+else f(elementText == "I" || elementText == "i" || elementText == "53" || elementText == "碘") {
+    sss element = 53
+    uigo("data.iyu")
+}
+else f(elementText == "Xe" || elementText == "xe" || elementText == "54" || elementText == "氙") {
+    sss element = 54
+    uigo("data.iyu")
+}
+else f(elementText == "Cs" || elementText == "cs" || elementText == "55" || elementText == "铯") {
+    sss element = 55
+    uigo("data.iyu")
+}
+else f(elementText == "Ba" || elementText == "ba" || elementText == "56" || elementText == "钡") {
+    sss element = 56
+    uigo("data.iyu")
+}
+else f(elementText == "La" || elementText == "la" || elementText == "57" || elementText == "镧") {
+    sss element = 57
+    uigo("data.iyu")
+}
+else f(elementText == "Ce" || elementText == "ce" || elementText == "58" || elementText == "铈") {
+    sss element = 58
+    uigo("data.iyu")
+}
+else f(elementText == "Pr" || elementText == "pr" || elementText == "59" || elementText == "镨") {
+    sss element = 59
+    uigo("data.iyu")
+}
+else f(elementText == "Nd" || elementText == "nd" || elementText == "60" || elementText == "钕") {
+    sss element = 60
+    uigo("data.iyu")
+}
+else f(elementText == "Pm" || elementText == "pm" || elementText == "61" || elementText == "钷") {
+    sss element = 61
+    uigo("data.iyu")
+}
+else f(elementText == "Sm" || elementText == "sm" || elementText == "62" || elementText == "钐") {
+    sss element = 62
+    uigo("data.iyu")
+}
+else f(elementText == "Eu" || elementText == "eu" || elementText == "63" || elementText == "铕") {
+    sss element = 63
+    uigo("data.iyu")
+}
+else f(elementText == "Gd" || elementText == "gd" || elementText == "64" || elementText == "钆") {
+    sss element = 64
+    uigo("data.iyu")
+}
+else f(elementText == "Tb" || elementText == "tb" || elementText == "65" || elementText == "铽") {
+    sss element = 65
+    uigo("data.iyu")
+}
+else f(elementText == "Dy" || elementText == "dy" || elementText == "66" || elementText == "镝") {
+    sss element = 66
+    uigo("data.iyu")
+}
+else f(elementText == "Ho" || elementText == "ho" || elementText == "67" || elementText == "钬") {
+    sss element = 67
+    uigo("data.iyu")
+}
+else f(elementText == "Er" || elementText == "er" || elementText == "68" || elementText == "铒") {
+    sss element = 68
+    uigo("data.iyu")
+}
+else f(elementText == "Tm" || elementText == "tm" || elementText == "69" || elementText == "铥") {
+    sss element = 69
+    uigo("data.iyu")
+}
+else f(elementText == "Yb" || elementText == "yb" || elementText == "70" || elementText == "镱") {
+    sss element = 70
+    uigo("data.iyu")
+}
+else f(elementText == "Lu" || elementText == "lu" || elementText == "71" || elementText == "镥") {
+    sss element = 71
+    uigo("data.iyu")
+}
+else f(elementText == "Hf" || elementText == "hf" || elementText == "72" || elementText == "铪") {
+    sss element = 72
+    uigo("data.iyu")
+}
+else f(elementText == "Ta" || elementText == "ta" || elementText == "73" || elementText == "钽") {
+    sss element = 73
+    uigo("data.iyu")
+}
+else f(elementText == "W" || elementText == "w" || elementText == "74" || elementText == "钨") {
+    sss element = 74
+    uigo("data.iyu")
+}
+else f(elementText == "Re" || elementText == "re" || elementText == "75" || elementText == "铼") {
+    sss element = 75
+    uigo("data.iyu")
+}
+else f(elementText == "Os" || elementText == "os" || elementText == "76" || elementText == "锇") {
+    sss element = 76
+    uigo("data.iyu")
+}
+else f(elementText == "Ir" || elementText == "ir" || elementText == "77" || elementText == "铱") {
+    sss element = 77
+    uigo("data.iyu")
+}
+else f(elementText == "Pt" || elementText == "pt" || elementText == "78" || elementText == "铂") {
+    sss element = 78
+    uigo("data.iyu")
+}
+else f(elementText == "Au" || elementText == "au" || elementText == "79" || elementText == "金") {
+    sss element = 79
+    uigo("data.iyu")
+}
+else f(elementText == "Hg" || elementText == "hg" || elementText == "80" || elementText == "汞") {
+    sss element = 80
+    uigo("data.iyu")
+}
+else f(elementText == "Tl" || elementText == "tl" || elementText == "81" || elementText == "铊") {
+    sss element = 81
+    uigo("data.iyu")
+}
+else f(elementText == "Pb" || elementText == "pb" || elementText == "82" || elementText == "铅") {
+    sss element = 82
+    uigo("data.iyu")
+}
+else f(elementText == "Bi" || elementText == "bi" || elementText == "83" || elementText == "铋") {
+    sss element = 83
+    uigo("data.iyu")
+}
+else f(elementText == "Po" || elementText == "po" || elementText == "84" || elementText == "钋") {
+    sss element = 84
+    uigo("data.iyu")
+}
+else f(elementText == "At" || elementText == "at" || elementText == "85" || elementText == "砹") {
+    sss element = 85
+    uigo("data.iyu")
+}
+else f(elementText == "Rn" || elementText == "rn" || elementText == "86" || elementText == "氡") {
+    sss element = 86
+    uigo("data.iyu")
+}
+else f(elementText == "Fr" || elementText == "fr" || elementText == "87" || elementText == "钫") {
+    sss element = 87
+    uigo("data.iyu")
+}
+else f(elementText == "Ra" || elementText == "ra" || elementText == "88" || elementText == "镭") {
+    sss element = 88
+    uigo("data.iyu")
+}
+else f(elementText == "Ac" || elementText == "ac" || elementText == "89" || elementText == "锕") {
+    sss element = 89
+    uigo("data.iyu")
+}
+else f(elementText == "Th" || elementText == "th" || elementText == "90" || elementText == "钍") {
+    sss element = 90
+    uigo("data.iyu")
+}
+else f(elementText == "Pa" || elementText == "pa" || elementText == "91" || elementText == "镤") {
+    sss element = 91
+    uigo("data.iyu")
+}
+else f(elementText == "U" || elementText == "u" || elementText == "92" || elementText == "铀") {
+    sss element = 92
+    uigo("data.iyu")
+}
+else f(elementText == "Np" || elementText == "np" || elementText == "93" || elementText == "镎") {
+    sss element = 93
+    uigo("data.iyu")
+}
+else f(elementText == "Pu" || elementText == "pu" || elementText == "94" || elementText == "钚") {
+    sss element = 94
+    uigo("data.iyu")
+}
+else f(elementText == "Am" || elementText == "am" || elementText == "95" || elementText == "镅") {
+    sss element = 95
+    uigo("data.iyu")
+}
+else f(elementText == "Cm" || elementText == "cm" || elementText == "96" || elementText == "锔") {
+    sss element = 96
+    uigo("data.iyu")
+}
+else f(elementText == "Bk" || elementText == "bk" || elementText == "97" || elementText == "锫") {
+    sss element = 97
+    uigo("data.iyu")
+}
+else f(elementText == "Cf" || elementText == "cf" || elementText == "98" || elementText == "锎") {
+    sss element = 98
+    uigo("data.iyu")
+}
+else f(elementText == "Es" || elementText == "es" || elementText == "99" || elementText == "锿") {
+    sss element = 99
+    uigo("data.iyu")
+}
+else f(elementText == "Fm" || elementText == "fm" || elementText == "100" || elementText == "镄") {
+    sss element = 100
+    uigo("data.iyu")
+}
+else f(elementText == "Md" || elementText == "md" || elementText == "101" || elementText == "钔") {
+    sss element = 101
+    uigo("data.iyu")
+}
+else f(elementText == "No" || elementText == "no" || elementText == "102" || elementText == "锘") {
+    sss element = 102
+    uigo("data.iyu")
+}
+else f(elementText == "Lr" || elementText == "lr" || elementText == "103" || elementText == "铹") {
+    sss element = 103
+    uigo("data.iyu")
+}
+else f(elementText == "Rf" || elementText == "rf" || elementText == "104" || elementText == "𬬻") {
+    sss element = 104
+    uigo("data.iyu")
+}
+else f(elementText == "Db" || elementText == "db" || elementText == "105" || elementText == "𬭊") {
+    sss element = 105
+    uigo("data.iyu")
+}
+else f(elementText == "Sg" || elementText == "sg" || elementText == "106" || elementText == "𬭳") {
+    sss element = 106
+    uigo("data.iyu")
+}
+else f(elementText == "Bh" || elementText == "bh" || elementText == "107" || elementText == "𬭛") {
+    sss element = 107
+    uigo("data.iyu")
+}
+else f(elementText == "Hs" || elementText == "hs" || elementText == "108" || elementText == "𬭶") {
+    sss element = 108
+    uigo("data.iyu")
+}
+else f(elementText == "Mt" || elementText == "mt" || elementText == "109" || elementText == "鿏") {
+    sss element = 109
+    uigo("data.iyu")
+}
+else f(elementText == "Ds" || elementText == "ds" || elementText == "110" || elementText == "𫟼") {
+    sss element = 110
+    uigo("data.iyu")
+}
+else f(elementText == "Rg" || elementText == "rg" || elementText == "111" || elementText == "𬬭") {
+    sss element = 111
+    uigo("data.iyu")
+}
+else f(elementText == "Cn" || elementText == "cn" || elementText == "112" || elementText == "𬭶") {
+    sss element = 112
+    uigo("data.iyu")
+}
+else f(elementText == "Nh" || elementText == "nh" || elementText == "113" || elementText == "鿔") {
+    sss element = 113
+    uigo("data.iyu")
+}
+else f(elementText == "Fl" || elementText == "fl" || elementText == "114" || elementText == "鿧") {
+    sss element = 114
+    uigo("data.iyu")
+}
+else f(elementText == "Mc" || elementText == "mc" || elementText == "115" || elementText == "鿨") {
+    sss element = 115
+    uigo("data.iyu")
+}
+else f(elementText == "Lv" || elementText == "lv" || elementText == "116" || elementText == "鉝") {
+    sss element = 116
+    uigo("data.iyu")
+}
+else f(elementText == "Ts" || elementText == "ts" || elementText == "117" || elementText == "石田") {
+    sss element = 117
+    uigo("data.iyu")
+}
+else f(elementText == "Og" || elementText == "og" || elementText == "118" || elementText == "鿫") {
+    sss element = 118
+    uigo("data.iyu")
+}
+else f(elementText == "") {
+    fn MDtw.toast("请输入元素符号/序数/中文",2)
+}
+else f(elementText == "零度音乐"){
+    uapp("ml.sky233.zero.music",c)
+}
+else {
+    fn MDtw.toast("请输入正确的元素符号/序数/中文",2)
+}</eventItme></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=23.625dp
+height=-1
+src=@icons/search.png
+layout_gravity=center
+adjustViewBounds=true</ppt>
+<event></event>
+</View>
+<View id="51" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("table.iyu")</eventItme></event>
+</View>
+<View id="52" did="51" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="53" did="52" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="TextView">
+<ppt>width=-2
+height=-2
+text=Periodic Table
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="56" did="52" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="TextView">
+<ppt>width=-2
+height=-1
+text=元素周期表
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="58" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("2333.iyu")
+//fn MDtw.toast("本功能将于后续正式版本更新后实装",2)</eventItme></event>
+</View>
+<View id="59" did="58" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="60" did="59" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="TextView">
+<ppt>width=-2
+height=-2
+text=Solubility Table
+textStyle=bold
+textColor=#212121
+textSize=25sp
+paddingLeft=5dp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="63" did="59" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="64" did="63" type="TextView">
+<ppt>width=-2
+height=-1
+text=溶解性表
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="65" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">utw(null, "常用方程式", "本功能正在内测，一切请均以正式版本为准，确定要进入吗？", "确定", "退出", false, v)
+{
+uigo("equation.iyu")
+}
+else
+{
+}
+</eventItme></event>
+</View>
+<View id="66" did="65" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="68" did="67" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=Common Chemical Equation
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="70" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="TextView">
+<ppt>width=-2
+height=-1
+text=常见方程式
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="79" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("ion.iyu")</eventItme></event>
+</View>
+<View id="80" did="79" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="TextView">
+<ppt>width=-2
+height=-2
+text=Ion Testing
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="84" did="80" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="TextView">
+<ppt>width=-2
+height=-1
+text=离子检验
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="86" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("organic.iyu")</eventItme></event>
+</View>
+<View id="87" did="86" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="TextView">
+<ppt>width=-2
+height=-2
+text=Organic Groups
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="91" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="TextView">
+<ppt>width=-2
+height=-1
+text=有机基团
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="93" did="5" type="CardView">
+<ppt>width=170.1dp
+height=62dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#424242
+layout_marginTop=9.45dp
+BackgroundRipple=#000000</ppt>
+<event><eventItme type="clicki">uigo("more.iyu")</eventItme></event>
+</View>
+<View id="94" did="93" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="96" did="95" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="TextView">
+<ppt>width=-2
+height=-2
+text=More Contents
+textStyle=bold
+textColor=#212121
+textSize=25sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+paddingLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="98" did="94" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="TextView">
+<ppt>width=-2
+height=-1
+text=更多内容
+textStyle=bold
+textColor=#ffffff
+layout_gravity=right
+gravity=bottom
+layout_marginRight=5dp
+textSize=18sp
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event></event>
+</View>
+<View id="43" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=轻舟已过万重山
+textColor=#ffffff
+textSize=12sp
+gravity=center_horizontal
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+scrollHorizontally=true
+focusable=false
+textIsSelectable=false
+singleLine=true
+ellipsize=marquee
+marqueeRepeatLimit=marquee_forever
+layout_marginTop=6.2dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="100" did="1" type="TextView">
+<ppt>width=-1
+height=-2
+text=23.10.28 / 正式版1.4
+textColor=#ffffff
+textSize=11.5sp
+gravity=center_horizontal
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+scrollHorizontally=true
+focusable=false
+textIsSelectable=false
+singleLine=true
+ellipsize=marquee
+marqueeRepeatLimit=marquee_forever
+layout_marginBottom=6.2dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

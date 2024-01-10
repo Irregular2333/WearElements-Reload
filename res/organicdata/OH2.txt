@@ -1,0 +1,12 @@
+{
+  "name": "酚基",
+  "formula": "OH",
+  "structure": "-OH",
+  "molarMass": 17.01,
+  "solubility": "微溶于水，可溶于有机溶剂",
+  "commonUses": "合成酚，酚醛树脂，苯酚等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "任意芳香基团",
+  "Reaction": "酸碱反应，亲电取代反应，重氮化反应，偶联反应，氧化反应"
+}

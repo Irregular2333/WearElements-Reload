@@ -1,0 +1,6 @@
+{
+  "Equation": "4Na + O₂ = 2Na₂O",
+  "LonicEquation": "4Na + O₂ = 2Na⁺ + O²⁻",
+  "ReactionConditions": "常温",
+  "ReactionPhenomenon": "在常温下，生成白色固体氧化钠，反应速率相对较慢，不会产生明显的火花或发光现象。"
+}

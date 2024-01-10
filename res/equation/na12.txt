@@ -1,0 +1,6 @@
+{
+   "Equation": "Na₂CO₃ + 2HCl = 2NaCl + H₂O + CO₂↑",
+   "LonicEquation": "Na₂CO₃ + 2H⁺ + 2Cl⁻ = 2Na⁺ + 2Cl⁻ + H₂O + CO₂↑",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中，观察到碳酸钠固体逐渐消失，同时产生并放出二氧化碳（CO₂）。"
+}

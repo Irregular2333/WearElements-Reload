@@ -1,0 +1,6 @@
+{
+   "Equation": "2NaHCO₃ + 3Ca(OH)₂ = 3CaCO₃ + 2NaOH + 2H₂O",
+   "LonicEquation": "2NaHCO₃ + 3Ca²⁺ + 6OH⁻ = 3CaCO₃ + 2Na⁺ + 6OH⁻ + 2H₂O",
+   "ReactionConditions": "-",
+   "ReactionPhenomenon": "在反应过程中会生成碳酸钙沉淀（CaCO₃）。"
+}

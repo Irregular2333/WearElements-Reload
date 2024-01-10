@@ -1,0 +1,1 @@
+{"ion":"Ca²⁺","InspectionMethod1":"向待检液中滴加NaOH溶液，若生成白色沉淀，说明含Ca²⁺","InspectionMethodEquation1":"Ca²⁺ + 2OH⁻ = Ca(OH)₂↓","InspectionMethod2":"向待检液中滴加过量的Na₂CO₃溶液，如果先生成白色沉淀然后白色沉淀溶解，说明含Ca²⁺","InspectionMethodEquation2":"Ca(OH)₂↓ + OH⁻ = Ca(OH)₂↓","InspectionMethod3":"向待检液中滴加NH₃溶液，若生成白色沉淀，说明含Ca²⁺","InspectionMethodEquation3":"Ca²⁺ + 2NH₃ + 2H₂O = Ca(OH)₂↓ + 2NH₄⁺"}

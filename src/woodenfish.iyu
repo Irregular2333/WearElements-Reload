@@ -1,0 +1,240 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=木鱼
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=9.45dp</ppt>
+<event></event>
+</View>
+<View id="12" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=功德 :
+textStyle=bold
+textSize=19sp
+textColor=#FFFFFF
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf</ppt>
+<event><eventItme type="clicki">f(sss.muyu == 1)
+{
+ sss muyu = 0
+}
+else
+{
+ sss muyu = 1
+}</eventItme></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textStyle=bold
+textSize=19sp
+textColor=#FFFFFF
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+layout_marginLeft=5dp</ppt>
+<event><eventItme type="clicki">f(sss.muyu == 1)
+{
+ sss muyu = 0
+}
+else
+{
+ sss muyu = 1
+}</eventItme></event>
+</View>
+<View id="14" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=功德+1
+textStyle=bold
+textSize=15sp
+textColor=#FFFFFF
+layout_gravity=right
+typeface=@fonts/HarmonyOS_Sans_Black.ttf
+layout_marginright=9.45dp
+visibility=invisible
+</ppt>
+<event><eventItme type="clicki">f(sss.muyu == 1)
+{
+ sss muyu = 0
+}
+else
+{
+ sss muyu = 1
+}</eventItme></event>
+</View>
+<View id="13" did="11" type="ImageView">
+<ppt>width=151.2dp
+height=151.2dp
+src=@muyu/muyu.png
+layout_gravity=center_horizontal</ppt>
+<event><eventItme type="clicki">//判断是否振动
+f(sss.muyu == 1)
+{
+s a=50
+s n="振动时间："
+s l="毫秒"
+ss(n+a+l,g)
+uzd(sss.zdq,a)
+}
+else
+{
+}
+
+//功德+1透明渐变动画
+dha(dh, false, true)
+dh(dh, "duration", 500)
+us(14, "dh", dh)
+dha(dh, true, false)
+dh(dh, "duration", 500)
+us(14, "dh", dh)
+
+//功德数字增加
+ug(16,"text",text)
+s(text+1,text)
+us(16,"text",text)
+
+//播放音效
+bfm("@muyu/muyu.mp3")
+
+//木鱼动画
+dhs(dh1, 0.8, 1, 0.8, 1,1,0.5,1,0.5)
+dh(dh1, "duration", 200)
+us(13, "dh", dh1)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+us(15,"layout_marginleft",b+"dp")
+us(14,"layout_marginright",b+"dp")
+
+//更改木鱼大小
+s(x*0.8,c)
+us(13,"width",c+"dp")
+us(13,"height",c+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+  us(15,"layout_gravity","center_horizontal")
+  us(15,"layout_marginleft",0+"dp")
+  s(x/1.414,aa)
+  us(13,"width",aa+"dp")
+  us(13,"height",aa+"dp")
+  us(14,"layout_gravity","center_horizontal")
+  us(14,"layout_marginright",0+"dp")
+  s(x-aa,bb)
+  s(bb*0.5,cc)
+  us(13,"layout_marginbottom",cc+"dp")
+}
+else f()
+{
+}
+
+//调整顶部状态栏
+s(y*0.16,a)
+us(2,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+
+</eventItme></UIEventset>

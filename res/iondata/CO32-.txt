@@ -1,0 +1,1 @@
+{"ion":"CO₃²⁻","InspectionMethod1":"向待检液中滴加BaCl₂溶液，若有白色沉淀生成，说明含CO₃²⁻","InspectionMethodEquation1":"CO₃²⁻ + Ba²⁺ = BaCO₃↓","InspectionMethod2":"向待检液中滴加稀盐酸或稀硝酸，若有无色无味气体生成，说明含CO₃²⁻","InspectionMethodEquation2":"CO₃²⁻ + 2H⁺ = H₂O + CO₂↑","InspectionMethod3":"将生成的气体通入澄清石灰水中，若石灰水变浑浊，说明含CO₃²⁻","InspectionMethodEquation3":"CO₂ + Ca(OH)₂ = CaCO₃↓ + H₂O"}

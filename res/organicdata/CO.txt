@@ -1,0 +1,12 @@
+{
+  "name": "酮基",
+  "formula": "C=O",
+  "structure": "-C(=O)-",
+  "molarMass": 28.01,
+  "solubility": "可溶于水，有机溶剂",
+  "commonUses": "合成酮，酮酸，酮醇等有机化合物",
+  "healthHazards": "可引起眼刺激，皮肤刺激，中毒",
+  "flammability": "易燃",
+  "substituents": "任意烃基团",
+  "Reaction": "氧化反应，还原反应，缩合反应，卤代反应"
+}

@@ -1,0 +1,6 @@
+{
+  "Equation": "4Na + O₂ = 2Na₂O",
+  "LonicEquation": "4Na + O₂ = 2Na⁺ + O²⁻",
+  "ReactionConditions": "点燃",
+  "ReactionPhenomenon": "在点燃条件下，伴随着明亮的火花和强烈的发光，生成白色固体氧化钠。"
+}

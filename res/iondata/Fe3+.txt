@@ -1,0 +1,1 @@
+{"ion":"Fe³⁺","InspectionMethod1":"向待检液中滴加KSCN溶液，若溶液呈血红色，说明含Fe³⁺","InspectionMethodEquation1":"Fe³⁺ + 3SCN⁻ = Fe(SCN)₃","InspectionMethod2":"向待检液中滴加苯酚溶液，若溶液呈紫色，说明含Fe³⁺","InspectionMethodEquation2":"Fe³⁺ + 6C₆H₅OH = [Fe(C₆H₅O)₆]³⁻ + 6H⁺","InspectionMethod3":"向待检液中滴加K₄[Fe(CN)₆]溶液，若生成蓝色沉淀，说明含Fe³⁺","InspectionMethodEquation3":"3Fe³⁺ + 2[Fe(CN)₆]⁴⁻ = Fe₃[Fe(CN)₆]₂↓"}

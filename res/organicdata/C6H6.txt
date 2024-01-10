@@ -1,0 +1,12 @@
+{
+  "name": "苯",
+  "formula": "C₆H₆",
+  "structure": "C₁=CC=CC=C₁",
+  "molarMass": 78.11,
+  "solubility": "不溶于水，可溶于有机溶剂",
+  "commonUses": "溶剂，化学反应中的中间体，合成其他有机化合物",
+  "healthHazards": "可引起眼刺激，呼吸道刺激，皮肤过敏",
+  "flammability": "易燃",
+  "substituents": "甲基基团，乙基基团，卤代基团",
+  "Reaction": "取代反应，氧化反应，加成反应"
+}

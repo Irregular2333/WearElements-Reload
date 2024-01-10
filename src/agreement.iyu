@@ -1,0 +1,350 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=37.2dp
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-1
+text=23:59:59
+gravity=center_vertical
+textColor=#ffffffff
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginRight=9dp
+layout_gravity=right</ppt>
+<event><eventItme type="aftertextchanged">t()
+{
+  stop(1000)
+  time(3,now)
+  ufnsui()
+  {
+    us(5,"text",now)
+  }
+}</eventItme></event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-1
+text=协议
+gravity=center_vertical
+textColor=#1E88E5
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+textSize=14.5sp
+layout_marginLeft=9dp</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=black</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ScrollView">
+<ppt>width=-1
+height=-1
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=9.45dp
+layout_marginRight=9.45dp
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上周期表是一款手表上的元素周期表，提供本地的化学元素信息以及其他的化学相关知识查询服务。
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=为实现以上功能，本应用需要获取系统的以下权限:
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=•读取外部储存器和写入外部储存(必须)：
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_marginTop=4dp</ppt>
+<event></event>
+</View>
+<View id="16" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上周期表需要该权限来读取是否同意服务协议以及写进本地数据；
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="17" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=•获取网络状态以及访问网络：
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_marginTop=4dp</ppt>
+<event></event>
+</View>
+<View id="18" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上周期表需要该权限从云端获取更新数据并下载新版本；
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="19" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=•请求安装软件：
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_marginTop=4dp</ppt>
+<event></event>
+</View>
+<View id="20" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上周期表需要该权限来安装最新版本，WearOS和HarmonyOS手表暂不支持；
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="21" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=•使用振动：
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Medium.ttf
+layout_marginTop=4dp</ppt>
+<event></event>
+</View>
+<View id="22" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=腕上周期表需要该权限来在某些必要的情况下提供更好的服务；
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="23" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=在使用期间，腕上周期表不会将您的使用数据上传至云端，不也会和第三方共享您的使用数据。
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf
+layout_marginTop=4dp</ppt>
+<event></event>
+</View>
+<View id="24" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=本软件支持撤回同意服务协议，若您想要撤回服务协议，请在“关于”界面中单击“撤回同意协议”选项，或者直接在系统设置中清除本软件的的数据即可。
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="25" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=如果您不同意本协议，则无法使用本软件，请直接点击顶部退出并卸载本软件。
+textColor=#ffffff
+typeface=@fonts/HarmonyOS_Sans_Regular.ttf</ppt>
+<event></event>
+</View>
+<View id="29" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="26" did="30" type="CardView">
+<ppt>width=47.25dp
+height=47.25dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-1
+height=-1
+text=→
+gravity=center
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textColor=#ffffff
+textSize=17sp</ppt>
+<event><eventItme type="clicki">uigo("mian.iyu")
+end()
+fw("$agreement.txt","本文件仅用于腕上周期表判断是否同意服务协议，请勿随意删除","utf-8")</eventItme></event>
+</View>
+<View id="31" did="30" type="CardView">
+<ppt>width=47.25dp
+height=47.25dp
+layout_gravity=center_horizontal
+app_CardElevation=0dp
+app_CardBackgroundColor=#424242
+layout_marginLeft=18.9dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#000000</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="TextView">
+<ppt>width=-1
+height=-1
+text=×
+gravity=center
+textStyle=bold
+typeface=@fonts/HarmonyOS_Sans_Bold.ttf
+textColor=#ffffff
+textSize=19sp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//调整状态栏黑色
+uycl("#000000", true)
+
+//获取屏幕的宽高
+swh("w",x)
+swh("h",y)
+
+//调整顶部字体间距
+s(x*0.05,b)
+us(7,"layout_marginleft",b+"dp")
+us(5,"layout_marginright",b+"dp")
+
+//检测是否是圆屏手表
+f(x==y)
+{
+  us(5,"visibility","invisible")
+  us(7,"layout_marginleft","0dp")
+  us(7,"layout_gravity","center_horizontal")
+}
+else f()
+{
+}
+
+//调整顶部状态栏
+s(y*0.15,a)
+us(2,"height",a+"dp")
+
+//获取时间
+time(3,now)
+ufnsui()
+{
+ us(5,"text",now)
+}
+
+//调整协议左右间距
+s(x*0.05,c)
+us(13,"layout_margintop",c+"dp")
+us(13,"layout_marginleft",c+"dp")
+us(13,"layout_marginright",c+"dp")
+
+//调整按钮圆角
+s(x*0.25,d)
+us(26,"width",d+"dp")
+us(26,"height",d+"dp")
+us(29,"layout_margintop",c+"dp")
+us(29,"layout_marginbottom",c+"dp")
+us(31,"width",d+"dp")
+us(31,"height",d+"dp")
+s(x*0.05,aa)
+us(26,"layout_marginright",aa+"dp")
+us(13,"layout_margintop",c+"dp")
+ngde(0, 25, "#424242|#424242", "#ffffffff", "leftright", bg1)
+us(26,"background",bg1)
+us(31,"background",bg1)
+
+//圆屏适配
+f(x==y)
+{
+ s(x/1.414,aa)
+ s(x-aa,bb)
+ s(bb*0.5,cc)
+ s(y*0.16,dd)
+ f(dd&gt;=cc)
+ {
+ }
+ else f()
+ {
+  s(cc-aa,ee)
+  us(13,"layout_margintop",ee+"dp")
+ }
+ us(26,"layout_marginbottom",cc+"dp")
+ us(13,"width",aa+"dp")
+}
+else f()
+{
+}</eventItme></UIEventset>
